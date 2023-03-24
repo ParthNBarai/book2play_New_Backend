@@ -17,6 +17,8 @@ app.use('/api/v1/owner', require('./routes/owner'))
 app.use('/api/v1', require('./routes/cancelAndRefunds'))
 app.use('/api/v1/booking', require('./routes/booking'))
 app.use('/api/v1/configuration', require('./routes/configuration'))
+app.use('/api/v1/suggestion', require('./routes/suggestion'))
+app.use('/api/v1/view', require('./routes/prPolicy'))
 
 
 
