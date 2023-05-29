@@ -23,3 +23,4 @@ app.use('/api/v1/view', require('./routes/prPolicy'))
 
 
 app.listen(port, () => console.log(`Server up and running...at ${port}`))
+

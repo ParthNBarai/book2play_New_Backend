@@ -43,7 +43,7 @@ const userSchema = mongoose.Schema({
     },
     avatar: {
         type: String,
-        default: 'https://book2play.el.r.appspot.com/api/image/profile_icon.png_1659857137964parthnb@gmail.com.png'
+        default: 'http://13.232.4.125:8080/api/image/profile_icon.png_1659857137964parthnb@gmail.com.png'
     },
 });
 
