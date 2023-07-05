@@ -80,7 +80,7 @@ router.post("/editTurf", [
         if (req.files.length > 0) {
             for (let i = 0; i < req.files.length; i++) {
                 // console.log(req.files[i].filename)
-                images.push(`${process.env.Book2play_URI}/api/image/${req.files[i].filename}`);
+                images.push(`${process.env.Book2play_URI}api/image/${req.files[i].filename}`);
 
             }
             for (let i = 0; i < user1.images.length; i++) {

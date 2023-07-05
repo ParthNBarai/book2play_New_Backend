@@ -139,7 +139,7 @@ router.post("/venue", [
             email: req.body.email,
             name: req.body.name,
             place: req.body.place,
-            device_id : req.body.device_id,
+            device_id: req.body.device_id,
             typeofvenue: req.body.typeofvenue,
             "price.weekdays.morning.time": price.weekdays.morning.time,
             "price.weekdays.morning.price": price.weekdays.morning.price,
@@ -176,7 +176,7 @@ router.post("/venue", [
         }
 
         for (i = 0; i < req.files.length; i++) {
-            venue.images.push(`${process.env.Book2play_URI}${req.files[i].filename}`);
+            venue.images.push(`${process.env.Book2play_URI}api/image/${req.files[i].filename}`);
         }
         const saved = await venue.save();
         res.status(200).json(saved);
