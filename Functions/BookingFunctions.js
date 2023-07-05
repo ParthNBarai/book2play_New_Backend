@@ -20,7 +20,7 @@ async function userPointUpdates(req, res) {
 
 async function bookingRequest(req, res) {
         const user = await userSchema.findOne({ phone: req.body.phone })
-        // console.log(req.user)
+        console.log(req.body.name)
         // console.log(req.user.name);
         // console.log(req.user.phone);
         // let name = req.user.name||req.user[0].name

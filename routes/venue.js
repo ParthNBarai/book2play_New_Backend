@@ -138,7 +138,7 @@ router.post("/editTurf", [
                         "price.weekdays.evening.time": price.weekdays.evening.time ? price.weekdays.evening.time : venue.price.weekdays.evening.time,
                         "price.weekdays.evening.price": price.weekdays.evening.price ? price.weekdays.evening.price : venue.price.weekdays.evening.price,
                         "price.weekends.morning.time": price.weekends.morning.time ?
-                            price.weekends.morning.time : venue.price.weekends.morning.time,
+                         price.weekends.morning.time : venue.price.weekends.morning.time,
                         "price.weekends.morning.price": price.weekends.morning.price ? price.weekends.morning.price : venue.price.weekends.morning.price,
                         "price.weekends.evening.time": price.weekends.evening.time ? price.weekends.evening.time : venue.price.weekends.evening.time,
                         "price.weekends.evening.price": price.weekends.evening.price ? price.weekends.evening.price : venue.price.weekends.evening.price,

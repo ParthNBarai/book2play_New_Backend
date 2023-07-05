@@ -139,6 +139,7 @@ router.post("/venue", [
             email: req.body.email,
             name: req.body.name,
             place: req.body.place,
+            device_id : req.body.device_id,
             typeofvenue: req.body.typeofvenue,
             "price.weekdays.morning.time": price.weekdays.morning.time,
             "price.weekdays.morning.price": price.weekdays.morning.price,
